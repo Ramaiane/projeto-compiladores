@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.11.6)  26 NOV 2012 10:48
+=======
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.11.6)  26 NOV 2012 10:35
+>>>>>>> e723b0c524c865aaa7945d3946c2d5375e899ec9
 entering extended mode
  %&-line parsing enabled.
 **relatorio.tex
@@ -501,6 +505,15 @@ Cap\'{\i }tulo 1.
 
 ] [4]
 Cap\'{\i }tulo 2.
+<<<<<<< HEAD
+=======
+
+Overfull \hbox (85.37936pt too wide) in paragraph at lines 64--65
+[]\T1/aer/m/n/12 O có-digo se en-con-tra aberto no GitHub(Repositório em nu-vem
+), no en-de-reço https://github.com/athos-
+ []
+
+>>>>>>> e723b0c524c865aaa7945d3946c2d5375e899ec9
 [5
 
 ] [6]
@@ -519,6 +532,12 @@ Here is how much of TeX's memory you used:
  5034 multiletter control sequences out of 15000+50000
  36696 words of font info for 49 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
+<<<<<<< HEAD
  30i,6n,41p,496b,229s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on relatorio.dvi (8 pages, 10684 bytes).
+=======
+ 30i,5n,41p,496b,229s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on relatorio.dvi (8 pages, 10692 bytes).
+>>>>>>> e723b0c524c865aaa7945d3946c2d5375e899ec9
