@@ -1,0 +1,96 @@
+\documentclass{abnt}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{ae}
+
+\begin{document}
+\autor{Athos Ribeiro, Matheus Fonseca, Matheus Fernandez, Ramaiane Medeiros, Victor Cotrim, Alisson}
+\titulo{Fundamentos de compiladores}
+\orientador{Sérgio Freitas}
+\comentario{Projeto de fundamentos de compiladores - Compilador de Arduino}
+\instituicao{Universidade de Brasília}
+\local{Gama}
+\data{2012}
+
+\capa
+\folhaderosto
+
+\chapter{O projeto}
+    \section{Da Disciplina}
+    A disciplina de Fundamentos de Compiladores da FGA - Universidade de Brasília, recém criada e ministrada pelo professor Sérgio Freitas tem como intuito introduzir conceitos básicos de linguagens formais, autômatos, compiladores, etc. Nesse contexto foi proposto que se projetasse, ao longo do semetre, um projeto completo de um compilador ou interpretador a escolha dos alunos. A turma foi dividida em grupos de seis pessoas para o desenvolvimento deste projeto.
+
+    O professor preferiu abordar a disciplina através do método PBL - \textit{Problem Based Learning}, onde os alunos devem desenvolver o projeto citado para que possam adquirir os conhecimentos propostos.
+
+\section{Arduino}
+Arduino é uma plataforma opensource de fácil prototipação que utiliza o microcontrolador ATMega 328. Possui uma linguagem de programação padrão constituida essencialmente de C/C++.
+
+Atualmente desenvolve-se para arduino usando a IDE Arduino, de última versão 1.01. Tal IDE permite que o usuário compile e faça o upload do bytecode para o microcontrolador através de porta serial. Existe uma dependência da IDE para que o bytecode possa ser enviado à plataforma.
+
+    \section{Objetivos}
+
+    O objetivo principal do projeto é o aprendizado em relação ao funcionamento e das etapas de desenvolvimento de um compilador.
+
+    Ao longo do semestre os alunos desenvolverão um compilador completo, passando pelas etapas de análise léxica, sintática e semântica, geração de código intermediário, otimização e geração de código final.
+    \section{Escopo}
+Criar um compilador \textbf{C para Arduino}, onde um código C é transformado para código executável na ATMega 328 (considerando a utilização de um Arduino UNO durante o projeto).
+
+Decidiu-se também que o programa deve realizar o upload do código para a ATMega, eliminando a dependência da IDE Arduino.
+
+\chapter{Gerenciamento}
+\section{Grupo}
+    Athos Ribeiro - 11/0109562
+    Matheus Souza - 11/0017765
+    Matheus Fonseca - 10/0054650
+    Ramaiane Medeiro - 09/0129962
+    Victor Cotrim
+    Alisson
+
+\section{Metodologia}
+Serão utilizadas metodologias ágeis no processo de desenvolvimento. Conceitos de Extreme Programming (XP) e Scrum, adquiridos no curso de Engenharia de Software, serão aplicados  pela necessidade do gerenciamento da equipe e para boa organização na produção de código e aplicação de boas práticas de programação.
+
+Serão realizadas Sprints(iterações da metodologia Scrum) de duas semanas ao longo de todo o projeto, havendo rodízio para o cargo de Scrum Master(gerente).
+
+A ferramente IceScrum será utilizada para o bom gerenciamento do mesmo, no endereço \textbf{(IP:port)}
+\section{Versionamento}
+O controle de versão do software a ser desenvolvido será feito com a ferramenta GIT, de modo que todos os membros da equipe possam colaborar facilmente com o projeto.
+
+O código se encontra aberto no GitHub(Repositório em nuvem), no endereço \textit{https://github.com/athos-ribeiro/projeto-compiladores}.
+
+\section{Comunicação}
+    A comunicação do grupo se dará por meio de:
+
+    Facebook
+
+    Skype
+
+    Reuniões presenciais semanais realizadas em horário de aula ou extra-classe.
+
+\section{Cronograma}
+    Semana de 19/11 a 24/11:
+
+        Semana para estudos de Arduino lex e yacc
+//
+    Semana de 26/11 a 1/12:
+
+        Criação de grupo privado no Facebook
+
+        Preparação de ambiente
+
+            lex=>flex
+
+            yacc=>bison
+
+            GIT
+
+            GITHub
+
+            Icescrum
+
+        Definição da gramática
+
+\chapter{Relatórios}
+\section{Segunda-feira, 26 de Novembro de 2012}
+Repositório criado
+    https://github.com/athos-ribeiro/projeto-compiladores
+\end{document}
