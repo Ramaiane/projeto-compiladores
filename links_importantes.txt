@@ -1,0 +1,9 @@
+http://download.savannah.gnu.org/releases/avr-libc/
+http://www.avrfreaks.net/index.php?module=FreaksTools&func=viewItem&item_id=145
+http://tadpol.org/projects/AvrianJump.html
+
+https://www.linux.com/learn/docs/ldp/529-gcc-frontend-howto#ss3.1
+
+http://www.lysator.liu.se/c/ANSI-C-grammar-l.html
+
+http://www.lysator.liu.se/c/ANSI-C-grammar-y.html
