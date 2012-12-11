@@ -61,13 +61,11 @@ A ferramente IceScrum será utilizada para o bom gerenciamento do mesmo, no ende
 \section{Versionamento}
 O controle de versão do software a ser desenvolvido será feito com a ferramenta GIT, de modo que todos os membros da equipe possam colaborar facilmente com o projeto.
 
-<<<<<<< HEAD
 O código se encontra aberto no GitHub(Repositório em nuvem), no endereço
 
  https://github.com/athos-ribeiro/projeto-compiladores.
 =======
 O código se encontra aberto no GitHub(Repositório em nuvem), no endereço https://github.com/athos-ribeiro/projeto-compiladores.
->>>>>>> e723b0c524c865aaa7945d3946c2d5375e899ec9
 
 \section{Comunicação}
     A comunicação do grupo se dará por meio de:
@@ -79,38 +77,45 @@ O código se encontra aberto no GitHub(Repositório em nuvem), no endereço http
     Reuniões presenciais semanais realizadas em horário de aula ou extra-classe.
 
 \section{Cronograma}
-<<<<<<< HEAD
 \textbf{-Semana de 19/11 a 24/11:}
-
-         Semana para estudos de Arduino lex e yacc
-
+\begin{itemize}
+    \item Semana para estudos de Arduino lex e yacc
+\end{itemize}
          \textbf{-Semana de 26/11 a 1/12:}
-=======
-    -Semana de 19/11 a 24/11:
-
-         Semana para estudos de Arduino lex e yacc
-
-    -Semana de 26/11 a 1/12:
->>>>>>> e723b0c524c865aaa7945d3946c2d5375e899ec9
-
-         Criação de grupo privado no Facebook
-
-         Preparação de ambiente
-
-             lex=>flex
-
-             yacc=>bison
-
-             GIT
-
-             GITHub
-
-             Icescrum
-
-         Definição da gramática
+         \begin{itemize}
+             \item Criação de grupo privado no Facebook
+\item Preparação de ambiente
+\item lex=>flex
+\item yacc=>bison
+\item GIT
+\item GITHub
+\item Icescrum
+\item Definição da gramática
+    \end{itemize}
+    \textbf{-Semana de 3/12 a 8/12}
+         \begin{itemize}
+             \item Equipe não compareceu à reunião presencial em aula devido a palestra de Richard Stallman.
+             \item Inicio de construção de analizador léxico com flex.
+    \end{itemize}
+    \textbf{-Semana de 10/12 a 15/12}
+         \begin{itemize}
+             \item Melhor entendimento do funcionamento do compilador contido na Arduino IDE
+             \item Construção do analizador léxico de forma gradual (deve ser finalizado nesta semana)
+             \item Obtenção da documentação do Assembler de Arduino, uma vez que o mesmo será necessário posteriormente.
+    \end{itemize}
 
 \chapter{Relatórios}
 \section{Segunda-feira, 26 de Novembro de 2012}
 Repositório criado
     https://github.com/athos-ribeiro/projeto-compiladores
+    \section{Segunda-feira, 10 de Dezembro de 2012}
+    Ambientes preparados, todos os integrantes do grupo estão devidamente cadastrados no ambiente de comunicação e no ambiente de compartihamento de arquivos.
+    Todos os membros da equipe possuem sistema operacional linux em suas máquinas, com flex 2.5.35 e GNU bison 2.5 instalados. Ainda existem problemas com a instalação da ferramenta de gestão (IceScrum), que devem ser resolvidos em breve.
+
+    Até o fim da última semana, havia dificuldade no entendimento do funcionamento do compilador contido na Arduino IDE, após alguns estudos melhorou-se o entendimento da mesma.
+    A arduino IDE contém um conjunto de bibliotecas que utilizam o compilador GCC com o GCC-AVR, convertendo o código C em código assembly para o microcontrolador ATMel contido no Arduino (ATMega328 no caso do Arduino UNO, utilizado pela equipe para devidos experimentos e testes).
+
+    Entende-se, a partir de então, que inicialmente deve-se construir analizadores para código em C e por fim, com a evolução da disciplina e dos conhecimentos da equipe a cerca de compiladores, converter o código C em Assembly compatível com o microcontrolador.
+
+    Ainda não estudou-se como fazer upload do programa para o Arduino, mas considerando-se que a Arduino IDE tem código aberto com licensa GPL, não sendo um problema para a equipe, uma possibilidade seria utilizar o próprio uploader da IDE com o compilador desenvolvido.
 \end{document}

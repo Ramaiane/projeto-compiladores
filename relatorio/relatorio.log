@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.11.6)  26 NOV 2012 10:48
-=======
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.11.6)  26 NOV 2012 10:35
->>>>>>> e723b0c524c865aaa7945d3946c2d5375e899ec9
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.11.6)  10 DEC 2012 23:01
 entering extended mode
  %&-line parsing enabled.
 **relatorio.tex
@@ -505,39 +501,37 @@ Cap\'{\i }tulo 1.
 
 ] [4]
 Cap\'{\i }tulo 2.
-<<<<<<< HEAD
-=======
-
-Overfull \hbox (85.37936pt too wide) in paragraph at lines 64--65
-[]\T1/aer/m/n/12 O có-digo se en-con-tra aberto no GitHub(Repositório em nu-vem
-), no en-de-reço https://github.com/athos-
- []
-
->>>>>>> e723b0c524c865aaa7945d3946c2d5375e899ec9
 [5
 
-] [6]
+]
+LaTeX Font Info:    Try loading font information for OMS+aer on input line 82.
+ (/usr/share/texmf-texlive/tex/latex/ae/omsaer.fd
+File: omsaer.fd 1999/12/27
+)
+LaTeX Font Info:    Font shape `OMS/aer/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 82.
+ [6] [7]
 Cap\'{\i }tulo 3.
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
-[7
+
+Overfull \hbox (10.83748pt too wide) in paragraph at lines 120--121
+[]\T1/aer/m/n/12 Ainda não estudou-se como fa-zer upload do pro-grama para o Ar
+-duino, mas considerando-
+ []
+
+[8
 
 ] (./relatorio.aux) ) 
 Here is how much of TeX's memory you used:
- 1914 strings out of 495042
- 24994 string characters out of 1181920
+ 1932 strings out of 495042
+ 25286 string characters out of 1181920
  77037 words of memory out of 3000000
- 5034 multiletter control sequences out of 15000+50000
- 36696 words of font info for 49 fonts, out of 3000000 for 9000
+ 5049 multiletter control sequences out of 15000+50000
+ 36953 words of font info for 50 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
-<<<<<<< HEAD
  30i,6n,41p,496b,229s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on relatorio.dvi (8 pages, 10684 bytes).
-=======
- 30i,5n,41p,496b,229s stack positions out of 5000i,500n,10000p,200000b,50000s
-
-Output written on relatorio.dvi (8 pages, 10692 bytes).
->>>>>>> e723b0c524c865aaa7945d3946c2d5375e899ec9
+Output written on relatorio.dvi (9 pages, 13688 bytes).
