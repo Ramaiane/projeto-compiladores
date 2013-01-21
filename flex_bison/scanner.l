@@ -1,23 +1,27 @@
 %{
 #include <stdio.h>
+#include <stdlib.h>
 #include "parser.tab.h"
 
 #define YY_DECL extern int yylex()
+
+int lnumber = 0;
+
 %}
 /* Definições */
-STRING [a-zA-Z_].[a-zA-Z0-9]*
-WHITESPACE [ \n\r\t]+
+WHITESPACE [ \r\t]+
 DIGITS [0-9]+
-ANY_CHAR .
- 
+ANY_CHAR . 
  
 %% /* Regras */
  
+\n             {lnumber++;}
 {WHITESPACE} /* Ignorar espaços, quebras de linha, tabs... */ ;
 
 \/\*([^\*]|\*[^/])*\*\/  /* Ignorar comentários */;
 \/\/.*  /* Ignorar comentários de c plus plus*/;
  
+
 "int" { return INTEGER; }
 "long" { return LONG; }
 "short" { return SHORT; }
@@ -38,14 +42,17 @@ ANY_CHAR .
 ")" { return ')'; }
 "{" { return '{'; }
 "}" { return '}'; }
- 
-{STRING} { return ID; }
+"\"" { return '"'; }
+
+[a-zA-Z_]+[a-zA-Z0-9]* { return ID; }
+"\"".*"\"" { return STRING; }
 {DIGITS} { return NUM_INT; }
 {DIGITS}+\.{DIGITS}+ { return NUM_FLOAT; }
  
  
 {ANY_CHAR} {
-	printf("Caracter inesperado na entrada: '%c'  (ASCII=%d)\n", yytext[0], yytext[0]);
+	printf("\n****** Erro (line=%d): lexical error, unspected char '%c'.\n",lnumber, yytext[0]);
+	return -1;
 }
 
 %%
