@@ -1,11 +1,21 @@
 Testador de REGEX = http://regexpal.com/
 
-http://download.savannah.gnu.org/releases/avr-libc/
-http://www.avrfreaks.net/index.php?module=FreaksTools&func=viewItem&item_id=145
-http://tadpol.org/projects/AvrianJump.html
+	http://download.savannah.gnu.org/releases/avr-libc/
+	http://www.avrfreaks.net/index.php?module=FreaksTools&func=viewItem&item_id=145
+	http://tadpol.org/projects/AvrianJump.html
 
-https://www.linux.com/learn/docs/ldp/529-gcc-frontend-howto#ss3.1
+	https://www.linux.com/learn/docs/ldp/529-gcc-frontend-howto#ss3.1
 
-http://www.lysator.liu.se/c/ANSI-C-grammar-l.html
+	http://www.lysator.liu.se/c/ANSI-C-grammar-l.html
 
-http://www.lysator.liu.se/c/ANSI-C-grammar-y.html
+	http://www.lysator.liu.se/c/ANSI-C-grammar-y.html
+
+
+Assembly - 12 artigos de como programar em assembly
+
+	http://www.plugmasters.com.br/sys/materias/120/1/Assembly,-Primeiros-Passos
+
+universidade de washigton - (colocado só pra compartilhar com vcs msm =D)
+
+	http://www.cs.washington.edu/education/courses/
+

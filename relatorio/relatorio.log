@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.11.6)  10 DEC 2012 23:01
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.11.6)  7 JAN 2013 10:40
 entering extended mode
  %&-line parsing enabled.
 **relatorio.tex
@@ -510,28 +510,28 @@ File: omsaer.fd 1999/12/27
 )
 LaTeX Font Info:    Font shape `OMS/aer/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 82.
- [6] [7]
+ [6] [7] [8]
 Cap\'{\i }tulo 3.
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
 
-Overfull \hbox (10.83748pt too wide) in paragraph at lines 120--121
+Overfull \hbox (10.83748pt too wide) in paragraph at lines 186--187
 []\T1/aer/m/n/12 Ainda não estudou-se como fa-zer upload do pro-grama para o Ar
 -duino, mas considerando-
  []
 
-[8
+[9
 
 ] (./relatorio.aux) ) 
 Here is how much of TeX's memory you used:
- 1932 strings out of 495042
- 25286 string characters out of 1181920
- 77037 words of memory out of 3000000
- 5049 multiletter control sequences out of 15000+50000
+ 1933 strings out of 495042
+ 25309 string characters out of 1181920
+ 78037 words of memory out of 3000000
+ 5050 multiletter control sequences out of 15000+50000
  36953 words of font info for 50 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
  30i,6n,41p,496b,229s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on relatorio.dvi (9 pages, 13688 bytes).
+Output written on relatorio.dvi (10 pages, 16092 bytes).

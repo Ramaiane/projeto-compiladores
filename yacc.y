@@ -27,3 +27,7 @@
 %token NUMBER
 %token ID
 %token WSPC
+%%
+
+selection_statement
+	: IF '(' expression ')' statement
