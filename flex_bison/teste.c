@@ -1,6 +1,2 @@
-int aa;
-if (200 < 092)
-{
-	int a;
-	int a = 400;		
-}
+int idade = 30;
+char nome = "matheus";

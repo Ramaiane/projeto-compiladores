@@ -5,7 +5,7 @@
 
 #define YY_DECL extern int yylex()
 
-int lnumber = 0;
+int lnumber = 1;
 
 %}
 /* Definições */
@@ -44,10 +44,10 @@ ANY_CHAR .
 "}" { return '}'; }
 "\"" { return '"'; }
 
-[a-zA-Z_]+[a-zA-Z0-9]* { return ID; }
-"\"".*"\"" { return STRING; }
-{DIGITS} { return NUM_INT; }
-{DIGITS}+\.{DIGITS}+ { return NUM_FLOAT; }
+[a-zA-Z_]+[a-zA-Z0-9]* { yylval.sval = strdup(yytext); return ID; }
+"\"".*"\"" { yylval.sval = strdup(yytext); return STRING; }
+{DIGITS} { yylval.ival = atoi(yytext); return NUM_INT; }
+{DIGITS}+\.{DIGITS}+ { yylval.fval = atof(yytext); return NUM_REAL; }
  
  
 {ANY_CHAR} {
