@@ -2,3 +2,4 @@ int idade = 20;
 char nome = "Matheus";
 float dinheiro = 35.50;
 char teste;
+double _double;

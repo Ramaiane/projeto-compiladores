@@ -1,0 +1,7 @@
+			==== TABELA DE SÍMBOLOS ====
+
+NOME: [idade]			TIPO: [200]			TAMANHO: [4 bytes]
+NOME: [nome]			TIPO: [203]			TAMANHO: [1 bytes]
+NOME: [dinheiro]			TIPO: [201]			TAMANHO: [4 bytes]
+NOME: [teste]			TIPO: [203]			TAMANHO: [1 bytes]
+

@@ -1,6 +1,6 @@
 BISON=bison
 FLEX=flex
-GCC = g++
+GCC = gcc
 
 compiler: lex.yy.c parser.tab.h parser.tab.c 
 	$(GCC) parser.tab.c lex.yy.c -lfl -o compiler
